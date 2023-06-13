@@ -9,13 +9,9 @@ import './App.css';
 function App() {
     const [num, setNum] = useState(1)
 
-    const inc = (n) => {
-        setNum(num + n);
-    }
+    const inc = n => setNum(num + n);
 
-    const dec = (n) => {
-        setNum(num - n);
-    }
+    const dec = n => setNum(num - n);
 
     return (
           <div className="App">
