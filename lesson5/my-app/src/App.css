@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color: #fff;
+  color: white;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgba(23, 32, 135);
+  padding: 8px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-wrap: wrap;
+  padding: 14px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.heading {
+  color: black;
+  font-size: 80px;
+  margin: 10px;
+}
+
+/*.movies {
+  background-color: rgba(161, 159, 159);
+  color: black;
+  border: 1px solid gray;
+  padding: 3px;
+  font-weight: bold;
+  text-align: start;
+  width: 22%;
+  margin-top: 14px;
+}
+
+.movie img {
+  height: 220px;
+  width: 100%;
+}*/
