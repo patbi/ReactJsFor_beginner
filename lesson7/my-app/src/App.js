@@ -7,7 +7,7 @@ import './App.css';
 
 
 function App() {
-    const [state, setState] = useState(10);
+    const [state, setState] = useState(5);
     const [data, setData] = useState([]);
 
     useEffect(() => {
@@ -21,12 +21,21 @@ function App() {
         }
 
         getData();
-    }, [state])
+    }, [state]);
 
     return (
-          <div className="App">
+          <div>
             <Navbar />
             <button onClick={() => setState(state+4)}> Click Me {state}</button>
+            {
+                data.map((element, index) => {
+                    return (
+                        <div key={index}>
+                            <h4> {element.firstName} </h4>
+                        </div>
+                    )
+                })
+            }
           </div>
     );
 }

@@ -5,3 +5,6 @@ React has been designed from the start for gradual adoption. You can use as litt
 #LEARN REACT - Lesson7
 
 * React Hooks - useEffect() Hook
+
+
+[Uncaught TypeError: this.updater.enqueueCallback is not a function when using setState callback] (https://github.com/facebook/react/issues/10320)
