@@ -7,4 +7,4 @@ React has been designed from the start for gradual adoption. You can use as litt
 * React Hooks - useEffect() Hook
 
 
-[Uncaught TypeError when using setState callback] (https://github.com/facebook/react/issues/10320)
+[Uncaught TypeError when using setState callback](https://github.com/facebook/react/issues/10320)
