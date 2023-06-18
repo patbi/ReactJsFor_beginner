@@ -7,7 +7,7 @@ import './App.css';
 
 
 function App() {
-    const [state, setState] = useState(5);
+    const [state, setState] = useState(2);
     const [data, setData] = useState([]);
 
     useEffect(() => {
@@ -21,17 +21,22 @@ function App() {
         }
 
         getData();
+
+        document.title = `(${state}) Employees Online`;
     }, [state]);
 
     return (
           <div>
             <Navbar />
-            <button onClick={() => setState(state+4)}> Click Me {state}</button>
+            <button onClick={() => setState(state+2)}> Click Me {state}</button>
             {
                 data.map((element, index) => {
                     return (
-                        <div key={index}>
+                        <div className='data' key={index}>
                             <h4> {element.firstName} </h4>
+                            <h4> {element.lastName} </h4>
+                            <h4> {element.email} </h4>
+                            <h4> {element.dob} </h4>
                         </div>
                     )
                 })

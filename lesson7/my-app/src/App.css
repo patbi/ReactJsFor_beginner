@@ -9,9 +9,23 @@ h1 {
   margin: 0;
 }
 
-.navbar {
+/*.navbar {
   background-color: rgba(23, 32, 135);
   padding: 8px;
+}*/
+
+.navbar {
+  text-align: center;
+  background-color: rgba(23, 32, 135);
+  color: white;
+  padding: 8px;
+}
+
+.data {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .main {
